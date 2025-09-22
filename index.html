@@ -36,46 +36,44 @@ body { font-family: 'Inter', sans-serif; }
 
 <!-- Top actions -->
 <div class="flex flex-wrap items-center justify-between gap-3 bg-white p-3 rounded-xl shadow">
-<div class="flex items-center gap-2">
-<span class="text-xs font-semibold text-gray-500">JUMP TO</span>
-<select id="jumpSelect" class="border rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-orange-300">
-<option value="0">Intro</option>
-<option value="1">Report – Purpose & Scope</option>
-<option value="2">Report – Evaluation Questions</option>
-<option value="3">Recommendations – Overview</option>
-<option value="4">R1 – Umbrella ToC</option>
-<option value="5">R2 – Scale Proven Models</option>
-<option value="6">R3 – Effective LNOB</option>
-<option value="7">R4 – Continuity & Efficiency</option>
-<option value="8">R5 – Funding → Financing</option>
-<option value="9">R6 – Strategic Innovation</option>
-<option value="10">Protocol – Roles & Process</option>
-<option value="11">Final</option>
-</select>
-</div>
-<div class="flex items-center gap-2">
-  <!-- Draft Report Download -->
-  <a href="https://docs.google.com/document/d/1atoXrbUMRQJC3GcRnSS57s4bweRqTPO3/export?format=pdf" 
-     target="_blank"
-     class="text-sm bg-white border border-unfpa-blue text-unfpa-blue hover:bg-blue-50 px-3 py-2 rounded-lg">
-     Download Draft Report (PDF)
-  </a>
+  <div class="flex items-center gap-2">
+    <span class="text-xs font-semibold text-gray-500">JUMP TO</span>
+    <select id="jumpSelect" class="border rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-orange-300">
+      <option value="0">Intro</option>
+      <option value="1">Report – Purpose & Scope</option>
+      <option value="2">Report – Evaluation Questions</option>
+      <option value="3">Recommendations – Overview</option>
+      <option value="4">R1 – Umbrella ToC</option>
+      <option value="5">R2 – Scale Proven Models</option>
+      <option value="6">R3 – Effective LNOB</option>
+      <option value="7">R4 – Continuity & Efficiency</option>
+      <option value="8">R5 – Funding → Financing</option>
+      <option value="9">R6 – Strategic Innovation</option>
+      <option value="10">Protocol – Roles & Process</option>
+      <option value="11">Final</option>
+    </select>
+  </div>
 
-  <!-- Recommendations Protocol Download -->
-  <a href="https://docs.google.com/document/d/1INJTwhNkEqZ9t-ZkvL2w6NhjZFbYgV-x/export?format=pdf" 
-     target="_blank"
-     class="text-sm bg-white border border-unfpa-orange text-unfpa-orange hover:bg-orange-50 px-3 py-2 rounded-lg">
-     Download Recommendations Protocol (PDF)
-  </a>
+  <div class="flex items-center gap-2">
+    <a href="https://docs.google.com/document/d/1atoXrbUMRQJC3GcRnSS57s4bweRqTPO3/export?format=pdf"
+       target="_blank"
+       class="text-sm bg-white border border-unfpa-blue text-unfpa-blue hover:bg-blue-50 px-3 py-2 rounded-lg">
+       Download Draft Report (PDF)
+    </a>
 
-  <!-- Feedback Form -->
-  <a id="feedbackBtnTop" target="_blank"
-     href="https://docs.google.com/forms/d/e/1FAIpQLSeq-fY6Tc_Mb-n47HEj-1LlmCwznRKNLdPlTkfCbdARG8jbMA/viewform?usp=dialog"
-     class="text-sm bg-green-600 hover:bg-green-700 text-white px-3 py-2 rounded-lg">
-     Open Feedback Form
-  </a>
-</div>
+    <a href="https://docs.google.com/document/d/1INJTwhNkEqZ9t-ZkvL2w6NhjZFbYgV-x/export?format=pdf"
+       target="_blank"
+       class="text-sm bg-white border border-unfpa-orange text-unfpa-orange hover:bg-orange-50 px-3 py-2 rounded-lg">
+       Download Recommendations Protocol (PDF)
+    </a>
 
+    <a id="feedbackBtnTop" target="_blank"
+       href="https://docs.google.com/forms/d/e/1FAIpQLSeq-fY6Tc_Mb-n47HEj-1LlmCwznRKNLdPlTkfCbdARG8jbMA/viewform?usp=dialog"
+       class="text-sm bg-green-600 hover:bg-green-700 text-white px-3 py-2 rounded-lg">
+       Open Feedback Form
+    </a>
+  </div>
+</div> <!-- ✅ THIS closes the top actions wrapper -->
 
 
 <!-- Slides container -->
@@ -384,4 +382,5 @@ document.addEventListener('keydown', (e) => {
 </script>
 </body>
 </html>
+
 
